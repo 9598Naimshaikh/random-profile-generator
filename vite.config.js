@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/random-profile-generator/', // 👈 ADD THIS LINE
 })
