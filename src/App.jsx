@@ -53,7 +53,7 @@ export default function App() {
         return (
           <div
             key={index}
-            className="w-fit h-fit bg-slate-950 rounded-2xl drop-shadow-2xl drop-shadow-purple-600/20 p-10 m-4 border border-purple-600/20 flex gap-6 flex-col items-center justify-center transition-all duration-300"
+            className="w-fit h-fit bg-slate-950 rounded-2xl drop-shadow-2xl drop-shadow-purple-600/20 p-4 md:p-10 m-4 border border-purple-600/20 flex gap-6 flex-col items-center justify-center transition-all duration-300"
           >
             {/* Profile Image */}
             <div className="drop-shadow-2xl drop-shadow-purple-500/20 w-32 h-32 rounded-full overflow-hidden bg-linear-to-b to-blue-600 from-purple-600 p-1 select-none">
